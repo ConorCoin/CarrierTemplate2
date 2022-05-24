@@ -7,44 +7,9 @@
   height: 6%;
 }
 
-
 .container {
   width: 100%;
   height: 25em;
-}
-
-.classy {
-  position: absolute;
-  margin-top: 8em;
-  margin-left: 11%;
-}
-
-.aboutUs {
-  position: absolute;
-  margin-left: 50%;
-  background-color: grey;
-  width: 45em;
-  height: 25em;
-}
-.aboutUsBig {
-  position: absolute;
-  width: 100%;
-  height: 38em;
-  background-color: black;
-}
-
-.service {
-  position: absolute;
-  margin-left: 50%;
-  background-color: grey;
-  width: 45em;
-  height: 25em;
-}
-.serviceBig {
-  position: absolute;
-  width: 100%;
-  height: 38em;
-  background-color: black;
 }
 
 .navbarLeft {
@@ -99,20 +64,4 @@
 .navbar a:hover {
   background: #333;;
   color: white;
-}
-
-/* Main content */
-.main {
-  display: flex/* Add a top margin to avoid content overlay */
-}
-
-.mission {
-    image-rendering: pixelated;
-    text-align: center;
-    height: 600px;
-    margin-top: 55px;
-    background-image: url(trucky.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
