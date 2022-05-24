@@ -19,7 +19,9 @@
 
 .container {
   width: 100%;
+  margin-top: 5em;
   height: 25em;
+  margin: 0;
 }
 
 .navbarLeft {
