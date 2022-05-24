@@ -1,0 +1,116 @@
+
+.navbar {
+  background-color: #f2f2f2;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 6%;
+}
+
+.container {
+  text-align: center;
+}
+
+.classy {
+  position: absolute;
+  margin-top: 8em;
+  margin-left: 11%;
+}
+
+.aboutUs {
+  position: absolute;
+  margin-left: 50%;
+  background-color: grey;
+  width: 45em;
+  height: 25em;
+}
+.aboutUsBig {
+  position: absolute;
+  width: 100%;
+  height: 38em;
+  background-color: black;
+}
+
+.service {
+  position: absolute;
+  margin-left: 50%;
+  background-color: grey;
+  width: 45em;
+  height: 25em;
+}
+.serviceBig {
+  position: absolute;
+  width: 100%;
+  height: 38em;
+  background-color: black;
+}
+
+.navbarLeft {
+  position: relative;
+  float: left;
+  margin-left: 5%;
+  width: 30%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.navbarRight {
+  position: relative;
+  float: right;
+  margin-right: 5%;
+  margin-top: 1%;
+  width: 30%;
+  text-align: center;
+}
+
+/* Links inside the navbar */
+.navbarLeft a {
+  width: 20%;
+  position: relative;
+  color: #333;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 90%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navbarRight a {
+  position: relative;
+  width: 20%;
+  color: #333;
+  height: 90%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  text-decoration: none;
+}
+.h1one {
+  display: inline-block;
+  color: #333;;
+  text-align: center;
+  margin-top: .7%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #333;;
+  color: white;
+}
+
+/* Main content */
+.main {
+  display: flex/* Add a top margin to avoid content overlay */
+}
+
+.mission {
+    image-rendering: pixelated;
+    text-align: center;
+    height: 600px;
+    margin-top: 55px;
+    background-image: url(trucky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
