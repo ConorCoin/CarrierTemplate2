@@ -1,3 +1,7 @@
+=======
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,21 +9,22 @@
 
 }
 
-
 .navbar {
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
   padding: 20px;
   position: fixed; /* Set the navbar to fixed position */
+=======
 }
 
 .navbar1 {
   background-color: #f2f2f2;
+
+>>>>>>> caitlyn
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 10%;
-  overflow: auto;
 }
 
 .missionStatement {
@@ -51,7 +56,6 @@ background-color: gray;
   text-align: left;
 }
 
-
 .navbarLeft {
   position: relative;
   float: left;
@@ -59,6 +63,11 @@ background-color: gray;
   width: 30%;
   margin-top: 1%;
   text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .navbarRight {
@@ -95,24 +104,6 @@ background-color: gray;
   text-decoration: none;
 }
 
-.missionStatement {
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 25em;
-  margin-top: 40em;
-  position: absolute;
-}
-
-.aboutUs {
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 25em;
-  margin-top: 40em;
-  position: absolute;
-}
-
 .h1one {
   display: inline-block;
   color: #333;
@@ -121,6 +112,8 @@ background-color: gray;
   margin-left: 8%;
   margin-right: 8%;
 }
+
+
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #333;;
