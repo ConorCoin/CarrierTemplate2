@@ -1,7 +1,10 @@
+
+
 *{
   margin: 0;
   padding: 0;
   font-family: Cambria, Times, serif;
+
 }
 
 .navbar {
@@ -10,11 +13,11 @@
   align-items: center;
   padding: 20px;
   position: fixed; /* Set the navbar to fixed position */
-
 }
 
-.navabar1 {
-  background-color: black;
+.navbar1 {
+  background-color: #f2f2f2;
+
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 10%;
@@ -60,6 +63,7 @@
   margin-left: 3%;
   margin-right: 3%;
   height: 90%;
+  padding: 20px;
   display: inline-block;
   text-decoration: none;
 }
@@ -71,6 +75,7 @@
   height: 90%;
   margin-left: 3%;
   margin-right: 3%;
+  padding: 20px;
   display: inline-block;
   text-decoration: none;
 }
@@ -163,8 +168,8 @@
 
 .h1one {
   display: inline-block;
-  color: #333;;
-  text-align: center;
+  color: #333;
+  align-items: center;
   margin-top: .7%;
   margin-left: 8%;
   margin-right: 8%;
