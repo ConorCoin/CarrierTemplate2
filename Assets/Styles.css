@@ -5,6 +5,24 @@
 
 }
 
+.missionStatement {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25em;
+  margin-top: 40em;
+  position: absolute;
+}
+
+.aboutUs {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25em;
+  margin-top: 40em;
+  position: absolute;
+}
+
 .navbar {
   background-color: #f2f2f2;
   display: flex;
@@ -87,6 +105,24 @@
   padding: 20px;
   display: inline-block;
   text-decoration: none;
+}
+
+.missionStatement {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25em;
+  margin-top: 40em;
+  position: absolute;
+}
+
+.aboutUs {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 25em;
+  margin-top: 40em;
+  position: absolute;
 }
 
 .h1one {
