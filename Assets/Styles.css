@@ -17,11 +17,9 @@
 
 .navbar1 {
   background-color: #f2f2f2;
-
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 10%;
-  overflow: auto;
 }
 
 .services {
@@ -78,7 +76,7 @@
   display: inline-block;
   color: #333;
   align-items: center;
-  margin-top: .7%;
+  margin-top: 1.5%;
   margin-left: 8%;
   margin-right: 8%;
 }
