@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -13,13 +11,15 @@
   align-items: center;
   padding: 20px;
   position: fixed; /* Set the navbar to fixed position */
-=======
-.navbar1 {
-  background-color: #f2f2f2;
->>>>>>> 29d965b5ae94d007cfe4a61462c52d458dd9828f
+
+}
+
+.navabar1 {
+  background-color: black;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 10%;
+  overflow: auto;
 }
 
 .services {
@@ -30,13 +30,7 @@
 .contactUs {
   width: 100%;
   height: 25em;
-  margin-top: 40em;
-}
-
-.container {
-  width: 100%;
-  height: 80em;
-  margin: 0;
+  margin-top: 65em;
 }
 
 .navbarLeft {
